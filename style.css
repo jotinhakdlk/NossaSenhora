@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #002d82;
+}
+
+#titulo{
+    font-family:'Great Vibes';
+    color: #002d82;
+    justify-content: center;
+    font-size: 200%;
+}
+
+#meio{
+    flex-direction: column;
+    margin-left:15%;
+    margin-right:15%;
+    margin-top:5%;
+    background-color: #FCFBFC;
+}
+
+footer{
+    color: black;
+}
+
+.container{
+    display: flex;
+}
+
+.texto{
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+/*div{
+    border: dotted;
+    border-color: white;
+}*/

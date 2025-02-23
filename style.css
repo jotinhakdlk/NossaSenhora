@@ -1,32 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
 
 *{
     margin: 0;
     padding: 0;
 }
 
-body{
-    background-color: #002d82;
+p{
+    text-wrap: wrap;
+}
+
+.imagemfundo{
+    background-image: url("coroação4.pg");
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+    padding: 5px;
+}
+
+body{ 
+background-image: url("fundo.png");
+background-color: #002d82;
+
 }
 
 #titulo{
-    font-family:'Great Vibes';
-    color: #002d82;
-    justify-content: center;
-    font-size: 200%;
+    font-family:'Ephesis';
+    color:#fbfbfc; text-shadow:black 1px -1px, black -1px 1px, black 1px 1px, black -1px -1px;
+    font-size: 50px;
+    padding-bottom: 5%;
 }
 
 #meio{
     flex-direction: column;
-    margin-left:15%;
-    margin-right:15%;
-    margin-top:5%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:2%;
     background-color: #FCFBFC;
+    border-radius: 30px;
 }
 
 footer{
     color: black;
 }
+
 
 .container{
     display: flex;
@@ -34,9 +49,19 @@ footer{
 
 .texto{
     font-size: 20px;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: 3%;
 }
+
+h1{
+    text-align: center;
+}
+
+.imagemNS{
+    border-bottom: 15px;
+    border-color: #002d82;
+}
+
 
 /*div{
     border: dotted;
